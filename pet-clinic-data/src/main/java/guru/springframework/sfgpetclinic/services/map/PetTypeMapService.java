@@ -13,7 +13,6 @@ public class PetTypeMapService extends AbstractMapService<PetType, Long> impleme
         return super.findAll();
     }
 
-    @Override
     public void deleteById(Long id) {
         super.deleteById(id);
     }
